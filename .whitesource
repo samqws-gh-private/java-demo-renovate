@@ -19,7 +19,8 @@
     "extends": [
       "github>whitesource/merge-confidence:beta",
       "config:base",
-      ":prHourlyLimitNone"
+      ":prHourlyLimitNone",
+      "github>whitesource/log4j-remediations"
       ]
   }
 }
