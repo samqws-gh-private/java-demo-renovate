@@ -16,6 +16,9 @@
   "remediateSettings": {
     "enableRenovate": true,
     "dependencyDashboard": true,
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    "extends": [
+      "github>whitesource/merge-confidence:beta",
+      "config:base"
+      ]
   }
 }
